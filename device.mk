@@ -39,7 +39,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Flatten APEXs for performance
 OVERRIDE_TARGET_FLATTEN_APEX := true
@@ -439,16 +441,9 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayChime \
     TelephonyOverlayChime
 
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.2.vendor
-
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2 \
-    android.hardware.power@1.2.vendor \
-    android.hardware.power-service-qti
+    android.hardware.power-service.xiaomi-libperfmgr
 
 # Properties
 include $(LOCAL_PATH)/configs/properties/default.mk
