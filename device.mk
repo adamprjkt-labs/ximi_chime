@@ -484,6 +484,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
+    init.qcom.power.rc \
     init.qcom.rc \
     init.qti.ufs.rc \
     init.recovery.qcom.rc \
