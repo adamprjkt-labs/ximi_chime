@@ -86,6 +86,26 @@
       "ResetOnInit": true
     },
     {
+      "Name": "FgSchedtunePreferIdle",
+      "Path": "/dev/stune/foreground/schedtune.prefer_idle",
+      "Values": [
+        "1",
+        "0"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "TASchedtunePreferIdle",
+      "Path": "/dev/stune/top-app/schedtune.prefer_idle",
+      "Values": [
+        "1",
+        "0"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
       "Name": "CPUBWHystTriggerCount",
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count",
       "Values": [
@@ -353,6 +373,18 @@
     {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "FgSchedtunePreferIdle",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "TASchedtunePreferIdle",
       "Duration": 0,
       "Value": "0"
     }
