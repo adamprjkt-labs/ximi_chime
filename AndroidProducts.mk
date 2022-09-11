@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_chime.mk
+    $(LOCAL_DIR)/aosp_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_chime-user \
-    arrow_chime-userdebug \
-    arrow_chime-eng
+    aosp_chime-user \
+    aosp_chime-userdebug \
+    aosp_chime-eng
