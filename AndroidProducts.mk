@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_chime.mk
+    $(LOCAL_DIR)/elytra_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_chime-user \
-    arrow_chime-userdebug \
-    arrow_chime-eng
+    elytra_chime-user \
+    elytra_chime-userdebug \
+    elytra_chime-eng
