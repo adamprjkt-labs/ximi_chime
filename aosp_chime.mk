@@ -19,6 +19,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Eternity Stuff.
 ETERNITY_MAINTAINER := putrazxyo13
 CUSTOM_BUILD_TYPE := OFFICIAL
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_chime
