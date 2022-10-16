@@ -6,7 +6,7 @@ git clone -b thirteen https://gitlab.com/frstprjkt/vendor_xiaomi_chime vendor/xi
 
 # kernel tree
 echo 'cloning kt'
-git clone https://github.com/frstprjkt/kernel_xiaomi_chime-anya kernel/xiaomi/chime
+git clone -b tiramisu https://github.com/frstprjkt/kernel_xiaomi_chime-anya kernel/xiaomi/chime
 
 # Sepolicy
 rm -rf vendor/qcom/sepolicy_vndr-legacy-um
