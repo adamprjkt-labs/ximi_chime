@@ -20,7 +20,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a73
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := citrus,lime,lemon,pomelo,chime,juice
+TARGET_OTA_ASSERT_DEVICE := citrus,lime,lemon,pomelo,chime
 
 # Audio
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
